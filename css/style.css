@@ -30,3 +30,7 @@ h1, .title-manga,.date-month, .place-event {
 .border-manga {
     border: 1px solid black;
 }
+
+.logo {
+    margin: auto;
+}
