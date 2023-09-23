@@ -1,13 +1,23 @@
 body {
-    font-family: 'Harlow Solid', 'Arial';
+    font-family: 'Papyrus', 'Arial';
 }
 
 h1 {
     color: purple;
 }
 
-.card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
+h1, .title-manga, li {
+    font-weight: bold;
+}
+
+.title-manga {
+    font-size: 30px;
+}
+
+.descript-manga, .text-accueil-manga, li {
+    font-size: 20px;
+}
+
+.border-manga {
+    border: 1px solid black;
 }
