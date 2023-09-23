@@ -2,20 +2,29 @@ body {
     font-family: 'Papyrus', 'Arial';
 }
 
-h1 {
+h1, .place-event {
     color: purple;
 }
 
-h1, .title-manga, li {
+h1, .title-manga,.date-month, .place-event {
     font-weight: bold;
 }
 
-.title-manga {
+.title-manga, .date-month {
     font-size: 30px;
 }
 
 .descript-manga, .text-accueil-manga, li {
     font-size: 20px;
+}
+
+.date {
+    font-style: italic;
+    
+}
+
+.place-event, .date {
+    text-decoration: underline;
 }
 
 .border-manga {
